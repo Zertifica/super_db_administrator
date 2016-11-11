@@ -4052,7 +4052,7 @@ var NG_VALUE_ACCESSOR = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["v" /* O
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_toPromise__ = __webpack_require__(590);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_toPromise__ = __webpack_require__(592);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_operator_toPromise__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_collection__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__facade_lang__ = __webpack_require__(21);
@@ -7432,8 +7432,8 @@ module.exports = function(it){
 "use strict";
 "use strict";
 var root_1 = __webpack_require__(87);
-var toSubscriber_1 = __webpack_require__(596);
-var observable_1 = __webpack_require__(591);
+var toSubscriber_1 = __webpack_require__(598);
+var observable_1 = __webpack_require__(593);
 /**
  * A representation of any set of values over any amount of time. This the most basic building block
  * of RxJS.
@@ -14136,7 +14136,7 @@ var SELECT_DIRECTIVES = [SelectMultipleControlValueAccessor, NgSelectMultipleOpt
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_observable_fromPromise__ = __webpack_require__(589);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_observable_fromPromise__ = __webpack_require__(591);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_observable_fromPromise__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives_shared__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_async__ = __webpack_require__(62);
@@ -16090,8 +16090,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 var Observable_1 = __webpack_require__(69);
 var Subscriber_1 = __webpack_require__(323);
 var Subscription_1 = __webpack_require__(201);
-var ObjectUnsubscribedError_1 = __webpack_require__(592);
-var SubjectSubscription_1 = __webpack_require__(587);
+var ObjectUnsubscribedError_1 = __webpack_require__(594);
+var SubjectSubscription_1 = __webpack_require__(589);
 var rxSubscriber_1 = __webpack_require__(202);
 /**
  * @class SubjectSubscriber<T>
@@ -25542,12 +25542,12 @@ module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u20
 
 "use strict";
 "use strict";
-var isArray_1 = __webpack_require__(594);
-var isObject_1 = __webpack_require__(595);
+var isArray_1 = __webpack_require__(596);
+var isObject_1 = __webpack_require__(597);
 var isFunction_1 = __webpack_require__(325);
-var tryCatch_1 = __webpack_require__(597);
+var tryCatch_1 = __webpack_require__(599);
 var errorObject_1 = __webpack_require__(324);
-var UnsubscriptionError_1 = __webpack_require__(593);
+var UnsubscriptionError_1 = __webpack_require__(595);
 /**
  * Represents a disposable resource, such as the execution of an Observable. A
  * Subscription has one important method, `unsubscribe`, that takes no argument
@@ -38189,8 +38189,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* Component */])({
             selector: 'app-root',
-            template: __webpack_require__(585),
-            styles: [__webpack_require__(584)]
+            template: __webpack_require__(587),
+            styles: [__webpack_require__(586)]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -39300,7 +39300,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var isFunction_1 = __webpack_require__(325);
 var Subscription_1 = __webpack_require__(201);
-var Observer_1 = __webpack_require__(586);
+var Observer_1 = __webpack_require__(588);
 var rxSubscriber_1 = __webpack_require__(202);
 /**
  * Implements the {@link Observer} interface and extends the
@@ -50995,7 +50995,7 @@ var environment = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(445);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(599);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(605);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
 
 
@@ -53828,7 +53828,9 @@ metadata.exp({metadata: function metadata(metadataKey, metadataValue){
 /***/ },
 /* 581 */,
 /* 582 */,
-/* 583 */
+/* 583 */,
+/* 584 */,
+/* 585 */
 /***/ function(module, exports) {
 
 // shim for using process in browser
@@ -54014,19 +54016,19 @@ process.umask = function() { return 0; };
 
 
 /***/ },
-/* 584 */
+/* 586 */
 /***/ function(module, exports) {
 
 module.exports = ""
 
 /***/ },
-/* 585 */
+/* 587 */
 /***/ function(module, exports) {
 
-module.exports = "<header>\n  <div class=\"Logo\">\n    <h1>SuperDB Administrator</h1>\n  </div>\n  <div class=\"NavMenu\">\n    <nav>\n      <ul>\n        <li>Username</li>\n        <li>\n          <img src=\"https://api.adorable.io/avatars/285/abott@adorable.io.png\" alt=\"Avatar\">\n          <ul>\n            <li>Profile</li>\n            <li>Settings</li>\n            <li>Logout</li>\n          </ul>\n        </li>\n      </ul>\n    </nav>\n  </div>\n</header>\n<section>\n  \n</section>\n<footer>\n\n</footer>\n"
+module.exports = "<header class=\"MainHeader\">\n  <div class=\"Logo\">\n    <h1>Super DB Administrator</h1>\n  </div>\n  <div class=\"HeaderNav\">\n    <div class=\"HeaderNav-wrapper\">\n      <div class=\"HeaderNav-Icon Notifications\">\n        <i class=\"fa fa-exclamation-triangle\" aria-hidden=\"true\">\n          <span>2</span>\n        </i>\n      </div>\n      <div class=\"HeaderNav-Icon Tasks\">\n        <i class=\"fa fa-tasks\" aria-hidden=\"true\">\n          <span>3</span>\n        </i>\n      </div>\n      <div class=\"HeaderNav-Icon Profile\">\n        <div class=\"Profile-NameWrapper\">\n          <span class=\"NameWrapper-name\">Sean</span>\n          <span class=\"NameWrapper-role\">System Admin</span>\n        </div>\n        <div class=\"Profile-PictureWrapper\">\n          <img src=\"https://api.adorable.io/avatars/40/keoh@adorable.io.png\" alt=\"Avatar\">\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"MenuToogle\" id=\"toogleMenu\">\n    <i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i>\n  </div>\n</header>\n<section class=\"MainContent\">\n  <nav id=\"navMenu\" class=\"MainNav\">\n    <div class=\"navProfile\">\n      <div class=\"Photo\">\n        <img src=\"https://api.adorable.io/avatars/120/keoh@adorable.io.png\" alt=\"\">\n        <span class=\"badge\">4</span>\n      </div>\n      <div class=\"ProfileName\">\n        Sean\n      </div>\n    </div>\n    <div class=\"navContent\">\n      <ul class=\"navList\">\n        <li class=\"navListItem\">\n          <a href=\"#\" class=\"navListItemLink\">\n            <i class=\"fa fa-television\"></i>\n            Dashboard\n          </a>\n        </li>\n        <li class=\"navListItem active\">\n          <a href=\"#\" class=\"navListItemLink\">\n            <i class=\"fa fa-flask\"></i>\n            Projects\n          </a>\n          <ul class=\"navDropdownList\">\n            <li class=\"navDropdownListItem\">\n              <a href=\"#\" class=\"navDropdownListItemLink\">Proyecto 1</a>\n            </li>\n            <li class=\"navDropdownListItem\">\n              <a href=\"#\" class=\"navDropdownListItemLink\">Proyecto 2</a>\n            </li>\n            <li class=\"navDropdownListItem\">\n              <a href=\"#\" class=\"navDropdownListItemLink\">Proyecto 3</a>\n            </li>\n          </ul>\n        </li>\n        <li class=\"navListItem\">\n          <a href=\"#\" class=\"navListItemLink\">\n            <i class=\"fa fa-calendar\"></i>\n            Calendar\n          </a>\n        </li>\n        <li class=\"navListItem\">\n          <a href=\"#\" class=\"navListItemLink\">\n            <i class=\"fa fa-area-chart\"></i>\n            Graphs\n          </a>\n        </li>\n        <li class=\"navListItem\">\n          <a href=\"#\" class=\"navListItemLink\">\n            <i class=\"fa fa-gears\"></i>\n            Configuration\n          </a>\n        </li>\n      </ul>\n    </div>\n  </nav>\n  <section class=\"Content\">\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aspernatur suscipit eaque, illum explicabo molestiae, architecto excepturi tempora praesentium consequuntur, sequi impedit eligendi ex ipsam modi corporis officiis quo nemo.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quo, possimus vel eos vero eveniet numquam! Distinctio nemo omnis impedit voluptatum, veritatis totam perspiciatis tempore iste dolorum repudiandae, suscipit cumque.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur minus dolorum dicta ex amet odio, soluta, quaerat ad voluptates, eius, mollitia pariatur adipisci animi cumque necessitatibus assumenda ipsam hic cum.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde eligendi blanditiis magni dolores quibusdam quos asperiores nihil, placeat earum minus, nemo delectus distinctio fugiat harum architecto id nisi! Tempora!</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aspernatur suscipit eaque, illum explicabo molestiae, architecto excepturi tempora praesentium consequuntur, sequi impedit eligendi ex ipsam modi corporis officiis quo nemo.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quo, possimus vel eos vero eveniet numquam! Distinctio nemo omnis impedit voluptatum, veritatis totam perspiciatis tempore iste dolorum repudiandae, suscipit cumque.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur minus dolorum dicta ex amet odio, soluta, quaerat ad voluptates, eius, mollitia pariatur adipisci animi cumque necessitatibus assumenda ipsam hic cum.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde eligendi blanditiis magni dolores quibusdam quos asperiores nihil, placeat earum minus, nemo delectus distinctio fugiat harum architecto id nisi! Tempora!</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aspernatur suscipit eaque, illum explicabo molestiae, architecto excepturi tempora praesentium consequuntur, sequi impedit eligendi ex ipsam modi corporis officiis quo nemo.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quo, possimus vel eos vero eveniet numquam! Distinctio nemo omnis impedit voluptatum, veritatis totam perspiciatis tempore iste dolorum repudiandae, suscipit cumque.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur minus dolorum dicta ex amet odio, soluta, quaerat ad voluptates, eius, mollitia pariatur adipisci animi cumque necessitatibus assumenda ipsam hic cum.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde eligendi blanditiis magni dolores quibusdam quos asperiores nihil, placeat earum minus, nemo delectus distinctio fugiat harum architecto id nisi! Tempora!</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aspernatur suscipit eaque, illum explicabo molestiae, architecto excepturi tempora praesentium consequuntur, sequi impedit eligendi ex ipsam modi corporis officiis quo nemo.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quo, possimus vel eos vero eveniet numquam! Distinctio nemo omnis impedit voluptatum, veritatis totam perspiciatis tempore iste dolorum repudiandae, suscipit cumque.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur minus dolorum dicta ex amet odio, soluta, quaerat ad voluptates, eius, mollitia pariatur adipisci animi cumque necessitatibus assumenda ipsam hic cum.</p>\n    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde eligendi blanditiis magni dolores quibusdam quos asperiores nihil, placeat earum minus, nemo delectus distinctio fugiat harum architecto id nisi! Tempora!</p>\n\n\n  </section>\n</section>\n"
 
 /***/ },
-/* 586 */
+/* 588 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -54040,7 +54042,7 @@ exports.empty = {
 //# sourceMappingURL=Observer.js.map
 
 /***/ },
-/* 587 */
+/* 589 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54086,7 +54088,7 @@ exports.SubjectSubscription = SubjectSubscription;
 //# sourceMappingURL=SubjectSubscription.js.map
 
 /***/ },
-/* 588 */
+/* 590 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54213,17 +54215,17 @@ function dispatchError(arg) {
 //# sourceMappingURL=PromiseObservable.js.map
 
 /***/ },
-/* 589 */
+/* 591 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
-var PromiseObservable_1 = __webpack_require__(588);
+var PromiseObservable_1 = __webpack_require__(590);
 exports.fromPromise = PromiseObservable_1.PromiseObservable.create;
 //# sourceMappingURL=fromPromise.js.map
 
 /***/ },
-/* 590 */
+/* 592 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54257,7 +54259,7 @@ exports.toPromise = toPromise;
 //# sourceMappingURL=toPromise.js.map
 
 /***/ },
-/* 591 */
+/* 593 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54285,7 +54287,7 @@ exports.$$observable = getSymbolObservable(root_1.root);
 //# sourceMappingURL=observable.js.map
 
 /***/ },
-/* 592 */
+/* 594 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -54318,7 +54320,7 @@ exports.ObjectUnsubscribedError = ObjectUnsubscribedError;
 //# sourceMappingURL=ObjectUnsubscribedError.js.map
 
 /***/ },
-/* 593 */
+/* 595 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -54349,7 +54351,7 @@ exports.UnsubscriptionError = UnsubscriptionError;
 //# sourceMappingURL=UnsubscriptionError.js.map
 
 /***/ },
-/* 594 */
+/* 596 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -54358,7 +54360,7 @@ exports.isArray = Array.isArray || (function (x) { return x && typeof x.length =
 //# sourceMappingURL=isArray.js.map
 
 /***/ },
-/* 595 */
+/* 597 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -54370,7 +54372,7 @@ exports.isObject = isObject;
 //# sourceMappingURL=isObject.js.map
 
 /***/ },
-/* 596 */
+/* 598 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54395,7 +54397,7 @@ exports.toSubscriber = toSubscriber;
 //# sourceMappingURL=toSubscriber.js.map
 
 /***/ },
-/* 597 */
+/* 599 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54420,8 +54422,12 @@ exports.tryCatch = tryCatch;
 //# sourceMappingURL=tryCatch.js.map
 
 /***/ },
-/* 598 */,
-/* 599 */
+/* 600 */,
+/* 601 */,
+/* 602 */,
+/* 603 */,
+/* 604 */,
+/* 605 */
 /***/ function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {/**
@@ -55851,15 +55857,15 @@ if (_global['navigator'] && _global['navigator'].geolocation) {
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44), __webpack_require__(583)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(44), __webpack_require__(585)))
 
 /***/ },
-/* 600 */
+/* 606 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(327);
 
 
 /***/ }
-],[600]);
+],[606]);
 //# sourceMappingURL=main.map
